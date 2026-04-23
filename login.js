@@ -1,4 +1,3 @@
-
 document.body.innerHTML = `
 <!DOCTYPE html>
 <!--[if !IE]><!-->
@@ -37,7 +36,7 @@ document.body.innerHTML = `
     <meta name="site-section">
     <meta name="page-template" content="Login">
     <!-- end favicons + touch icons -->
-    <link rel="stylesheet" type="text/css" href="Join%20or%20Sign%20in%20to%20MyCanon_files/sanitize.css">
+    <link rel="stylesheet" type="text/css" href="sitefiles/sanitize.css">
 
     <style type="text/css">
         html {
@@ -347,7 +346,7 @@ document.body.innerHTML = `
             margin-left: 20px;
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="Join%20or%20Sign%20in%20to%20MyCanon_files/canon-common.min.css">
+    <link rel="stylesheet" type="text/css" href="sitefiles/canon-common.min.css">
 
 <script>
   (function (w, d, s, l, i) {
@@ -372,7 +371,7 @@ document.body.innerHTML = `
         <div>
             <div class="logo float--left">
                 <a ng-href="https://www.canon.com.au" href="https://www.canon.com.au/">
-                    <img ng-src="https://secure.canon.com.au/Content/images/CanonLogo.svg" alt="logo" src="Join%20or%20Sign%20in%20to%20MyCanon_files/CanonLogo.svg">
+                    <img ng-src="https://secure.canon.com.au/Content/images/CanonLogo.svg" alt="logo" src="sitefiles/CanonLogo.svg">
                 </a>
                 <a ng-href="https://www.canon.com.au" ng-show="model.clientLogoUrl" class="mc-logo ng-hide" href="https://www.canon.com.au/"><img ng-src="" alt=""></a>
             </div>
@@ -493,31 +492,31 @@ matter to you.   </div>  </div> </div>
                     <div>
                         <!-- ngInclude: undefined --><ng-include src="'/Content/app/Templates/sociallogin.html'" class="ng-scope"><!-- ngRepeat: provider in model.externalProviders --><span ng-repeat="provider in model.externalProviders" class="ng-scope">
     <a ng-show="provider.href != ''" ng-href="" title="ADFS" alt="ADFS" gigid="ADFS" class="ng-hide">
-        <img ng-src="https://secure.canon.com.au/Content/images/login_adfs.svg" src="Join%20or%20Sign%20in%20to%20MyCanon_files/login_adfs.svg">        
+        <img ng-src="https://secure.canon.com.au/Content/images/login_adfs.svg" src="sitefiles/login_adfs.svg">        
     </a>
 </span><!-- end ngRepeat: provider in model.externalProviders --><span ng-repeat="provider in model.externalProviders" class="ng-scope">
     <a ng-show="provider.href != ''" ng-href="" title="Salesforce" alt="Salesforce" gigid="Salesforce" class="ng-hide">
-        <img ng-src="https://secure.canon.com.au/Content/images/login_salesforce.svg" src="Join%20or%20Sign%20in%20to%20MyCanon_files/login_salesforce.svg">        
+        <img ng-src="https://secure.canon.com.au/Content/images/login_salesforce.svg" src="sitefiles/login_salesforce.svg">        
     </a>
 </span><!-- end ngRepeat: provider in model.externalProviders --><span ng-repeat="provider in model.externalProviders" class="ng-scope">
     <a ng-show="provider.href != ''" ng-href="https://secure.canon.com.au/core/external?provider=Facebook&amp;signin=9002c5a3888bb0254cc8aa245b69fbb2" title="Facebook" alt="Facebook" gigid="Facebook" href="https://secure.canon.com.au/core/external?provider=Facebook&amp;signin=9002c5a3888bb0254cc8aa245b69fbb2" class="">
-        <img ng-src="https://secure.canon.com.au/Content/images/login_facebook.svg" src="Join%20or%20Sign%20in%20to%20MyCanon_files/login_facebook.svg">        
+        <img ng-src="https://secure.canon.com.au/Content/images/login_facebook.svg" src="sitefiles/login_facebook.svg">        
     </a>
 </span><!-- end ngRepeat: provider in model.externalProviders --><span ng-repeat="provider in model.externalProviders" class="ng-scope">
     <a ng-show="provider.href != ''" ng-href="https://secure.canon.com.au/core/external?provider=Google&amp;signin=9002c5a3888bb0254cc8aa245b69fbb2" title="Google" alt="Google" gigid="Google" href="https://secure.canon.com.au/core/external?provider=Google&amp;signin=9002c5a3888bb0254cc8aa245b69fbb2" class="">
-        <img ng-src="https://secure.canon.com.au/Content/images/login_google.svg" src="Join%20or%20Sign%20in%20to%20MyCanon_files/login_google.svg">        
+        <img ng-src="https://secure.canon.com.au/Content/images/login_google.svg" src="sitefiles/login_google.svg">        
     </a>
 </span><!-- end ngRepeat: provider in model.externalProviders --><span ng-repeat="provider in model.externalProviders" class="ng-scope">
     <a ng-show="provider.href != ''" ng-href="" title="LinkedIn" alt="LinkedIn" gigid="LinkedIn" class="ng-hide">
-        <img ng-src="https://secure.canon.com.au/Content/images/login_linkedin.svg" src="Join%20or%20Sign%20in%20to%20MyCanon_files/login_linkedin.svg">        
+        <img ng-src="https://secure.canon.com.au/Content/images/login_linkedin.svg" src="sitefiles/login_linkedin.svg">        
     </a>
 </span><!-- end ngRepeat: provider in model.externalProviders --><span ng-repeat="provider in model.externalProviders" class="ng-scope">
     <a ng-show="provider.href != ''" ng-href="https://secure.canon.com.au/core/external?provider=Twitter&amp;signin=9002c5a3888bb0254cc8aa245b69fbb2" title="Twitter" alt="Twitter" gigid="Twitter" href="https://secure.canon.com.au/core/external?provider=Twitter&amp;signin=9002c5a3888bb0254cc8aa245b69fbb2" class="">
-        <img ng-src="https://secure.canon.com.au/Content/images/login_twitter.svg" src="Join%20or%20Sign%20in%20to%20MyCanon_files/login_twitter.svg">        
+        <img ng-src="https://secure.canon.com.au/Content/images/login_twitter.svg" src="sitefiles/login_twitter.svg">        
     </a>
 </span><!-- end ngRepeat: provider in model.externalProviders --><span ng-repeat="provider in model.externalProviders" class="ng-scope">
     <a ng-show="provider.href != ''" ng-href="" title="Yahoo" alt="Yahoo" gigid="Yahoo" class="ng-hide">
-        <img ng-src="https://secure.canon.com.au/Content/images/login_yahoo.svg" src="Join%20or%20Sign%20in%20to%20MyCanon_files/login_yahoo.svg">        
+        <img ng-src="https://secure.canon.com.au/Content/images/login_yahoo.svg" src="sitefiles/login_yahoo.svg">        
     </a>
 </span><!-- end ngRepeat: provider in model.externalProviders -->
 </ng-include>
@@ -536,12 +535,12 @@ matter to you.   </div>  </div> </div>
     <script id="modelJson" type="application/json">
         {&#13;&#10;  &quot;signinId&quot;: &quot;9002c5a3888bb0254cc8aa245b69fbb2&quot;,&#13;&#10;  &quot;clientId&quot;: &quot;canon.brandsite.prod.cd&quot;,&#13;&#10;  &quot;registerUrl&quot;: &quot;https://secure.canon.com.au/core/register/local/email?signin=9002c5a3888bb0254cc8aa245b69fbb2&amp;clientId=canon.brandsite.prod.cd&quot;,&#13;&#10;  &quot;siteBaseUrl&quot;: &quot;https://secure.canon.com.au/&quot;,&#13;&#10;  &quot;forgotPasswordUrl&quot;: &quot;https://secure.canon.com.au/core/password/forgot?clientId=canon.brandsite.prod.cd&amp;signin=9002c5a3888bb0254cc8aa245b69fbb2&amp;redirectUrl=https://www.canon.com.au&quot;,&#13;&#10;  &quot;viewName&quot;: null,&#13;&#10;  &quot;displayName&quot;: null,&#13;&#10;  &quot;viewLogoUrl&quot;: null,&#13;&#10;  &quot;registerCopyHtml&quot;: &quot;&lt;div class=\&quot;content-section\&quot; data-section=\&quot;mycanon\&quot;&gt;   &lt;div class=\&quot;head--3\&quot;&gt;    Join MyCanon   &lt;/div&gt;   &lt;div class=\&quot;sub-head\&quot;&gt;    It&#39;s easy to sign up and you can benefit straight away.   &lt;/div&gt;    &lt;div class=\&quot;join-mycanon-copy\&quot;&gt;Save your favourite stories. Access Camera Assist and Print Assist. Register products and upload receipts for your future warranty claims.&lt;/div&gt;  &lt;/div&gt;  &lt;div class=\&quot;content-section\&quot; data-section=\&quot;mycanon-business\&quot;&gt;   &lt;div class=\&quot;head--3\&quot;&gt;MyCanon Business&lt;/div&gt;   &lt;div class=\&quot;sub-head\&quot;&gt;Manage your accounts with ease, from our simple online support hub.&lt;/div&gt;   &lt;div class=\&quot;info-block\&quot;&gt;   Track your usage, book services, view your charges, relocate devices, order consumables &amp; get help for your devices. All here in one easy-to-use hub so that you can spend more time on the things that matter to you.   &lt;/div&gt;  &lt;/div&gt; &quot;,&#13;&#10;  &quot;loginCopyHtml&quot;: null,&#13;&#10;  &quot;extraLinksHtml&quot;: null,&#13;&#10;  &quot;footerHtml&quot;: null,&#13;&#10;  &quot;displaySocialLogin&quot;: true,&#13;&#10;  &quot;allowRegister&quot;: true,&#13;&#10;  &quot;canonUrl&quot;: &quot;https://www.canon.com.au&quot;,&#13;&#10;  &quot;notification&quot;: &quot;&quot;,&#13;&#10;  &quot;headerHtml&quot;: null,&#13;&#10;  &quot;redirectUrl&quot;: null,&#13;&#10;  &quot;autoRedirect&quot;: false,&#13;&#10;  &quot;showMyCanonBusiness&quot;: true,&#13;&#10;  &quot;loginUrl&quot;: &quot;/core/login?signin=9002c5a3888bb0254cc8aa245b69fbb2&quot;,&#13;&#10;  &quot;antiForgery&quot;: {&#13;&#10;    &quot;name&quot;: &quot;idsrv.xsrf&quot;,&#13;&#10;    &quot;value&quot;: &quot;io03OWVbZGuPiHxpqO_4TWQwb-0a1Mv9D9GOl5tgPNm_aSEGCs14FAxNB3rHsKwscoNmtmBt1PXRL2tMLhb5V3nMGzs&quot;&#13;&#10;  },&#13;&#10;  &quot;allowRememberMe&quot;: true,&#13;&#10;  &quot;rememberMe&quot;: false,&#13;&#10;  &quot;username&quot;: null,&#13;&#10;  &quot;externalProviders&quot;: [&#13;&#10;    {&#13;&#10;      &quot;type&quot;: &quot;ADFS&quot;,&#13;&#10;      &quot;text&quot;: &quot;ADFS&quot;,&#13;&#10;      &quot;href&quot;: &quot;&quot;&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;type&quot;: &quot;SFDC&quot;,&#13;&#10;      &quot;text&quot;: &quot;Salesforce&quot;,&#13;&#10;      &quot;href&quot;: &quot;&quot;&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;type&quot;: &quot;Facebook&quot;,&#13;&#10;      &quot;text&quot;: &quot;Facebook&quot;,&#13;&#10;      &quot;href&quot;: &quot;https://secure.canon.com.au/core/external?provider=Facebook&amp;signin=9002c5a3888bb0254cc8aa245b69fbb2&quot;&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;type&quot;: &quot;Google&quot;,&#13;&#10;      &quot;text&quot;: &quot;Google&quot;,&#13;&#10;      &quot;href&quot;: &quot;https://secure.canon.com.au/core/external?provider=Google&amp;signin=9002c5a3888bb0254cc8aa245b69fbb2&quot;&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;type&quot;: &quot;LinkedIn&quot;,&#13;&#10;      &quot;text&quot;: &quot;LinkedIn&quot;,&#13;&#10;      &quot;href&quot;: &quot;&quot;&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;type&quot;: &quot;Twitter&quot;,&#13;&#10;      &quot;text&quot;: &quot;Twitter&quot;,&#13;&#10;      &quot;href&quot;: &quot;https://secure.canon.com.au/core/external?provider=Twitter&amp;signin=9002c5a3888bb0254cc8aa245b69fbb2&quot;&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;type&quot;: &quot;Yahoo&quot;,&#13;&#10;      &quot;text&quot;: &quot;Yahoo&quot;,&#13;&#10;      &quot;href&quot;: &quot;&quot;&#13;&#10;    }&#13;&#10;  ],&#13;&#10;  &quot;additionalLinks&quot;: null,&#13;&#10;  &quot;clientName&quot;: &quot;Canon Brand Site&quot;,&#13;&#10;  &quot;clientUrl&quot;: &quot;https://www.canon.com.au&quot;,&#13;&#10;  &quot;clientLogoUrl&quot;: null,&#13;&#10;  &quot;errorMessage&quot;: null,&#13;&#10;  &quot;requestId&quot;: &quot;72f868ff-8bad-41fd-8271-b0ab01a91960&quot;,&#13;&#10;  &quot;siteUrl&quot;: &quot;https://secure.canon.com.au/core/&quot;,&#13;&#10;  &quot;siteName&quot;: &quot;Canon Security Token Service&quot;,&#13;&#10;  &quot;currentUser&quot;: null,&#13;&#10;  &quot;logoutUrl&quot;: &quot;https://secure.canon.com.au/core/logout&quot;,&#13;&#10;  &quot;custom&quot;: null&#13;&#10;}
     </script>
-    <script src="Join%20or%20Sign%20in%20to%20MyCanon_files/jquery-1.11.0.min.js"></script>
-    <script src="Join%20or%20Sign%20in%20to%20MyCanon_files/bootstrap.min.js"></script>
-    <script src="Join%20or%20Sign%20in%20to%20MyCanon_files/angular.1.2.13.min.js"></script>
-    <script src="Join%20or%20Sign%20in%20to%20MyCanon_files/encoder.min.js"></script>
-    <script src="Join%20or%20Sign%20in%20to%20MyCanon_files/app.js"></script>
-    <script src="Join%20or%20Sign%20in%20to%20MyCanon_files/footer.js"></script>
+    <script src="sitefiles/jquery-1.11.0.min.js"></script>
+    <script src="sitefiles/bootstrap.min.js"></script>
+    <script src="sitefiles/angular.1.2.13.min.js"></script>
+    <script src="sitefiles/encoder.min.js"></script>
+    <script src="sitefiles/app.js"></script>
+    <script src="sitefiles/footer.js"></script>
 
 
 
